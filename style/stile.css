@@ -35,11 +35,11 @@ header{
 
 /*CSS MAIN*/
 
-footer ,
+/*footer ,
 main{
     max-width: 400px;
     margin: 0 auto;
-}
+}*/
 
 .column,.colums-purple-card,.third-section{
     display:flex;
@@ -130,12 +130,12 @@ img{
         flex-wrap:wrap;
     }
 
-    .column-second{
+    .second-column{
         display:flex;
         flex-direction: column;
     }
 
-    footer,main{
+    main{
     max-width: 730px;
     margin: 0 auto;
 }
@@ -156,8 +156,11 @@ img{
 
 
 
-@media screen and (min-width:992){
+@media screen and (min-width:992px){
+
+    
     .colums-purple-card{
+        display: flex;
         flex-direction: row;
     }
 
@@ -179,5 +182,19 @@ img{
     }
     footer{
         width: 100%;
+    }
+
+    .main{
+        max-width: 930px;
+        margin: 0 auto;
+    }
+
+    .container-header{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .first-image{
+        width:50% ;
     }
 }
