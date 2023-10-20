@@ -35,11 +35,11 @@ header{
 
 /*CSS MAIN*/
 
-/*footer ,
+
 main{
     max-width: 400px;
     margin: 0 auto;
-}*/
+}
 
 .column,.colums-purple-card,.third-section{
     display:flex;
@@ -70,7 +70,8 @@ img{
     height: 300px;
     border-radius: 10%;
 }
-
+.container-footer,
+.container-col-card,
 .container-col{
     width: 80%;
     margin: 0 auto;
@@ -82,7 +83,7 @@ img{
     border-radius:10%;
 }
 
-
+.bg-purple,
 .purple{
     background-color:#9792E4;
 }
@@ -159,18 +160,11 @@ img{
 @media screen and (min-width:992px){
 
     
-    .colums-purple-card{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .first-column{
+    .columns-purple-card{
         width: 60%;
     }
 
-    .second-column{
-        width: 40%;
-    }
+    
     .columns-third{
         width: calc(100% / 3);
         margin-top:1rem;
@@ -196,5 +190,12 @@ img{
 
     .first-image{
         width:50% ;
+    }
+
+    .purple{
+        display:flex;
+    }
+    .container-col{
+        width: 40%;
     }
 }
