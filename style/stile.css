@@ -9,7 +9,7 @@
 /*CSS HEADER*/
 
 header{
-    width: 480px;
+    max-width: 480px;
     margin: 0 auto;
     /*height: 60px;*/
     background-color: #0084FD;
@@ -32,6 +32,15 @@ header{
     font-size:30px;
 }
 
+
+/*CSS MAIN*/
+
+footer ,
+main{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .column{
     display:flex;
     flex-direction: column;
@@ -43,23 +52,93 @@ header{
     border: 2px solid magenta;
     padding: 0 2rem;
     margin-bottom:1rem;
+    background-color: #B5DDFF;
 }
 
-.first-card{
-    margin-top:2rem;
-    /*height: 400px;*/
-}
 
 .card{
     height: 200px;
-}
-
-main{
-    width: 400px;
-    margin: 0 auto;
 }
 
 img{
     width: 100%;
 }
 
+
+.col{
+    border:2px solid magenta;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.container-col{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius:10%
+}
+
+.border{
+    border-radius:10%;
+}
+
+
+.purple{
+    background-color:#9792E4;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.image{
+    border-radius: 50%;
+    width:50%;
+}
+
+.flex-center{
+    display:flex;
+    justify-content: center;
+}
+
+.bg-black{
+    background-color: #333333;
+    height:100px
+}
+
+.spaziatura{
+    margin-top:4rem
+}
+
+
+
+
+/*RESPONSIVE TABLET*/
+
+@media screen and (min-width:768px){
+    header{
+        max-width: 768px;
+        margin: 0 auto;
+        /*height: 60px;*/
+        background-color: #0084FD;
+        padding: .7rem 1rem;
+    }
+    .column-top{
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width: calc(100% / 3);
+    }
+
+    .column-second{
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer ,
+main{
+    max-width: 730px;
+    margin: 0 auto;
+}
+}
