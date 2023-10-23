@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/stile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -25,102 +29,243 @@
         <section class="container column-top spaziatura">
             <div class="columns">
                 <article class=" cards first-card flex-item">
-                    <h1>Ciao</h1>
+                    <h1 class="text-center">Get demo application</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempora asperiores, repellat similique qui eaque, repudiandae quasi laudantium impedit totam odit. Labore dolorum, provident expedita voluptas perferendis optio nihil quis.</p>
+                    <button class="btn-blue"><i class="fa-brands fa-apple"></i> App store</button>
                     <img class="first-image" src="./img/phone.png">
                 </article>
             </div>
             <div class="columns">
-                <article class=" cards card">
+                <article class=" cards card padding-bottom">
+                <div class="flex-center">
+                    <i class="fa-solid fa-file-code"></i>
+                </div>
+                <h2 class="text-center">Clean code</h2>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, officia facilis optio eos quibusdam ut at labore architecto modi atque quis laboriosam pariatur libero aspernatur accusantium consectetur sit dignissimos iusto!</p>
                 </article>
             </div>
             <div class="columns">
-                <article class=" cards card"></article>
+                <article class=" cards card">
+                    <div class="flex-center">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h2 class="text-center">Web design</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam impedit dignissimos beatae ea? Facere unde, aliquid at tenetur consequatur architecto, autem quos magni officiis ipsa porro voluptates fugiat modi. Recusandae.</p>
+                    
+                </article>
             </div>
             <div class="columns">
-                <article class=" cards card"></article>
+                <article class=" cards card">
+                    <div class="flex-center">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h2 class="text-center">Development</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium quas facere optio vero quam voluptatem laborum rerum enim commodi eius sunt amet consequatur deserunt doloribus exercitationem, unde facilis.</p>
+                </article>
             </div>
             <div class="columns">
-                <article class="cards card"></article>
+                <article class="cards card">
+                    <div class="text-center">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h2 class="text-center">Branding</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto numquam nobis reiciendis maiores ipsam corporis nam nihil rem consequuntur ipsa, deleniti aliquam dolor soluta eum consequatur animi laudantium?</p>
+                </article>
             </div>
         </section>
 
         <section class="container purple spaziatura ">
             <div class="columns-purple-card">
-                <article class="col first-column"></article>
+                <article class="col first-column">
+                   <img class="planning-image" src="./img/planning1.png">
+                   <div>
+                   <h1 class="text-center">Srategic planning</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis quasi, at reprehenderit dolores, aliquid, fugiat exercitationem placeat molestias in ducimus? Reprehenderit dolores repellat ab repudiandae praesentium molestias ullam inventore?</p>
+                   </div>
+                </article>
             </div>    
             <div class="container-col">
-                <article class="col second-column"></article>
+                <article class="col second-column">
+                    <img src="img/planning2.png">
+                    <div>
+                        <h1 class="text-center">App Development</h1>
+                        <p class="text-center"><i>Develop an on-demand app for you delivery business to reach your targeted customers without any interruption</i></p>
+                        <div class="flex-center">
+                            <button class="btn-purple"><i class="fa-solid fa-arrow-down"></i></button>
+                        </div>
+                    </div>
+
+                </article>
             </div>
         </section>
 
         <section class="container spaziatura">
+            <div>
             <p class="text-center">Testimonial</p>
             <h1 class="text-center">We are committed expert partners</h1>
-            <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum qui necessitatibus provident amet aliquam sunt praesentium magnam repellendus deserunt, repudiandae, magni sint? Obcaecati nesciunt nemo doloribus architecto magnam tempora odio.</p>
-
-                <article class="col fist-column">
-                    <div class="flex-center">
-                    <img class="image" src="">
+            <p class="text-center">We place huge value on strong relationship and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right </p>
+            </div>
+                <article class="col purple-container">
+                <div class="flex-center">
+                    <div class="circle flex-center">
+                    <img class="image" src="./img/testimonial1.jpg">
                     </div>
-                    </article>
-            <article class="col fist-column flex-item">
-                <div class="flex-center">
-                <img class="image" src="">
                 </div>
+                    <p class="text-center text-white m.bottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum modi quod facilis iste illo praesentium porro placeat quasi odit reiciendis laboriosam facere eligendi sequi ad quisquam explicabo at et?
+                    </p>
+                    <h2 class="text-center text-white m.bottom">Nat Reynolds</h2>
+                </article>
 
+            <article class="col fist-column purple-container">
+                <div class="flex-center">
+                    <div class="circle flex-center">
+                        <img class="image" src="./img/testimonial2.jpg">
+                    </div>
+                </div>
+                    <p class="text-center text-white m.bottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum modi quod facilis iste illo praesentium porro placeat quasi odit reiciendis laboriosam facere eligendi sequi ad quisquam explicabo at et?
+                    </p>
+                    <h2 class="text-center text-white m.bottom">Celia Almeda</h2>
             </article>
-            <article class="col fist-column">
-                <div class="flex-center">
-                <img class="image" src="">
-                </div>
 
+            <article class="col fist-column purple-container">
+                <div class="flex-center">
+                    <div class="circle flex-center">
+                        <img class="image" src="./img/testimonial3.jpg">
+                    </div>
+                </div>
+                <p class="text-center text-white m.bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum modi quod facilis iste illo praesentium porro placeat quasi odit reiciendis laboriosam facere eligendi sequi ad quisquam explicabo at et?
+                </p>
+                <h2 class="text-center text-white m.bottom">Bob Roberts</h2>
             </article>
         </div>
         </section>
 
-        <section class="container third-section purple spaziatura">
+        <section class="container  spaziatura">
+            <div><h1 class="text-center text-white bg-purple">Benefits of working with us</h1></div>
+            <div class="third-section purple">
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">01</h1>
+                            <h2 class="text-purple">High Quality</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">02</h1>
+                            <h2 class="text-purple">Creative Team</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">03</h1>
+                            <h2 class="text-purple">Amazing Results</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">04</h1>
+                            <h2 class="text-purple">Best Pricing</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">05</h1>
+                            <h2 class="text-purple">Innovation</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="columns-third">
                     <div class="container-col-card">
-                        <article class="col"></article>
+                        <article class="col internal-padding">
+                            <h1 class="text-purple text-size">06</h1>
+                            <h2 class="text-purple">24/7 Support</h2>
+                            <p class="m-bottom">Vitae suscipit tellus mauris a diam
+                                maecenas sed enim ut. Mauris auque neque gravida in fermentum. Present
+                                semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <div>
+                                <button class="card-btn-purple btn-purple text-white">More</button>
+                            </div>
+                        </article>
                     </div>
+                </div>
                 </div>
         </div>
         </section>
 
         <section class="container spaziatura third-section">
             <div class="columns">
-                <article class="col fist-column">
-                    <h1 class="text-center">About us</h1>
+                <article class="col fist-column internal-padding">
+                    <h1 class="text-center text-purple text-size">About us</h1>
+                    <p class="m-bottom">Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque
+                        eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam
+                        lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus
+                        pellentesque e tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit
+                        scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum
+                        velit euismod in pellentesque massa placerat duis.</p>
+                        <p>I help companies
+                        tincidunt tortor
+                        aliquam nulla
+                        facilisi cras
+                        fermentum odio.
+                        in Find me on linkedin
+                        Ouis viverra nibh cras pulvinar mattis. Ornare arcu dui vivamus arcu felis
+                        bibendum ut tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras
+                        fermentum odio. Dignissim diam quis enim lobortis scelerisque. Tellus molestie
+                        nunc non blandit massa enim. the text box. Click again or double click to start
+                        editing the text.</p>
                 </article>
                 </div>
                 <div class="columns">
-                <article class="col second-column">
+                <article class="col second-column internal-padding">
+                        <div class="circle flex-center">
+                            <img class="image" src="./img/about.jpg">
+                        </div>
+                        <h2 class="text-purple">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h2>
+                        <div>
+                            <button class="btn-purple text-white card-btn-purple"><i class="fa-brands fa-linkedin"></i> Find me on Linkedin</button>
+                        </div>
                 </article>
         </div>
         </section>
@@ -130,19 +275,25 @@
 
     <footer>
         <section class="container bg-purple spaziatura">
-            <p class="text-center">GET STARTED</p>
-            <h1 class="text-center">Simple Trasparent Pricing</h1>
-            <h2 class="text-center">It's Free</h2>
-            <p class="text-center"></p>
+            <div class="footer-container">
+            <p class="text-center text-white">GET STARTED</p>
+            <h1 class="text-center text-white">Simple Trasparent Pricing</h1>
+            <h2 class="text-center text-yellow text-size">It's Free</h2>
+            <p class="text-center text-white">We're still in beta and we will be for awhile.
+                As we add more functionality, we'll Look into
+                other plans with more controls.</p>
             <div class="btn flex-center">
-                <button>Get started</button>
+                <button class="btn-purple bg-white text-purple">Get started</button>
             </div>
-            <p class="text-center"></p>
-            <p class="text-center"></p>
+            <p class="text-center text-white margin-none p-bottom">Copyright 2021 Boolean • Classe XX • Privacy
+                policy</p>
+            </div>
         </section>
         <section class="container bg-black">
-            <p class="text-center"></p>
-            <p class="text-center"></p>
+            <div class="footer-container">
+            <p class="text-center text-white p-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vel beatae ad nobis impedit, error doloribus. Officiis ipsa tempore incidunt quo doloribus quod alias ab exercitationem. Possimus impedit culpa unde.</p>
+            <p class="text-center text-white margin-none"><a href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a href="#">Boolean carrers</a></p>
+            </div>
         </section>
 
     </footer>
