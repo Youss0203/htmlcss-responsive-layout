@@ -92,15 +92,16 @@ p{
 
 
 .cards{
-    border: 2px solid magenta;
+    /*border: 2px solid magenta;*/
     padding: 0 2rem;
     margin-bottom:1rem;
     background-color: #B5DDFF;
+    border-radius:2rem;
 }
 
 .circle{
     border-radius: 100%;
-    border:2px solid magenta;
+    /*border:2px solid magenta;*/
     height: 200px;
     width: 200px;
     margin-top:1rem;
@@ -119,7 +120,7 @@ img{
 
 
 .col{
-    border:2px solid magenta;
+    /*border:2px solid magenta;*/
     /*height: 300px;*/
     border-radius: 2rem;
     margin-bottom: 2rem;
@@ -164,7 +165,7 @@ img{
 .purple-container{
     width: 80%;
     margin: 0 auto;
-    border:2px solid magenta;
+   /* border:2px solid magenta;*/
     background-color:#9792E4;
     margin-bottom:2rem;
 }
@@ -179,6 +180,9 @@ img{
 }
 .text-yellow{
     color:#FDC15F;
+}
+.text-black{
+    color:black;
 }
 
 .m-bottom{
@@ -221,7 +225,7 @@ a{
 }
 
 .p-bottom{
-    padding-bottom: 3rem;
+    padding-bottom: 3rem ;
 }
 
 .p-top{
@@ -267,11 +271,14 @@ a{
     margin-top:1rem;
 }
 .padding-bottom{
-    padding-bottom:13rem;
+    padding-bottom:11rem;
 }
 .footer-container{
     width: 50%;
     margin: 0 auto;
+}
+.col-flex{
+    display: flex;
 }
 }
 
@@ -330,5 +337,9 @@ a{
     .footer-container{
         width: 35%;
         margin: 0 auto;
+    }
+
+    .col-flex{
+        display: flex;
     }
 }
