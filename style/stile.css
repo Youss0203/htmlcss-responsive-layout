@@ -10,6 +10,7 @@ body{
 }
 
 
+
 /*CSS HEADER*/
 
 header{
@@ -231,6 +232,22 @@ a{
 .p-top{
     padding-top: 3rem;
 }
+
+.btn-white{
+        border: none;
+        border-radius: 2rem;
+        padding: .5rem;
+        background-color: white;
+
+}
+
+.nav-padding{
+    padding: .3rem ;
+}
+
+.nav{
+    display: none;
+}
 /*RESPONSIVE TABLET*/
 
 @media screen and (min-width:768px){
@@ -280,6 +297,9 @@ a{
 .col-flex{
     display: flex;
     align-items: center;
+}
+.nav{
+    display:none;
 }
 }
 
@@ -345,5 +365,19 @@ a{
     .col-flex{
         display: flex;
         align-items: center;
+    }
+
+    .nav-bar{
+        display:none;
+    }
+
+    li{
+        list-style: none;
+        padding: 0 .8rem;
+        color:#FBFDFF;
+    }
+
+    .nav{
+        display: block;
     }
 }
