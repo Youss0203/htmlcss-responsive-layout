@@ -271,7 +271,7 @@ a{
     margin-top:1rem;
 }
 .padding-bottom{
-    padding-bottom:11rem;
+    padding-bottom:24.5rem;
 }
 .footer-container{
     width: 50%;
@@ -279,6 +279,7 @@ a{
 }
 .col-flex{
     display: flex;
+    align-items: center;
 }
 }
 
@@ -317,7 +318,9 @@ a{
     }
 
     .first-image{
-        width:50% ;
+        width: 100%;
+        position: relative;
+        top: 50px;
     }
 
     .purple{
@@ -328,7 +331,7 @@ a{
     }
 
     .padding-bottom{
-        padding-bottom:4rem;
+        padding-bottom:0;
     }
     .container-col{
         position: relative;
@@ -338,8 +341,9 @@ a{
         width: 35%;
         margin: 0 auto;
     }
-
+    .card-flex,
     .col-flex{
         display: flex;
+        align-items: center;
     }
 }
